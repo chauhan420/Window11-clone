@@ -11,3 +11,12 @@ taskbar.addEventListener("click",()=>{
         startmenu.style.bottom="50px"
     }
 })
+function displaytime() {
+    a = new Date();
+    date = a.toLocaleDateString();
+
+    time = a.toLocaleTimeString();
+    document.getElementById('time').innerHTML=time;
+    document.getElementById('date').innerHTML=date;
+}
+setInterval(displaytime, 1000);
