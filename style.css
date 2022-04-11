@@ -51,18 +51,3 @@ position: relative;
 left: 1%;
 
 }
-.time{
-    position: absolute;
-    top: 8%;
-    right: 5%;
-    display: flex;
-    flex-direction: column;
-    text-align: right;
-}
-#time{
-    font-size: 60px;
-    color: rgb(51, 51, 51);
-}
-#date{
-    font-size: 19px;
-}
